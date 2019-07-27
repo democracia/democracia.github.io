@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Democracia Global
+email: info@democracia.global
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -41,3 +41,42 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+## prose.io config
+prose:
+  rooturl: '_posts'
+  ignore: ['file_a.html', '_config.yml']
+  siteurl: 'http://beta.democracia.global/'
+  # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'img'
+    metadata:
+    _posts/union:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "Union"
+    _posts/country:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "Country"
+    _posts/region_1:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "Autonomous Area"
+    _posts/region_4:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "Municipality"
+    _posts/party:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "Political Party"
+    _posts/result:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "Election Result"
