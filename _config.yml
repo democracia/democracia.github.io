@@ -45,7 +45,7 @@ plugins:
 ## prose.io config
 prose:
   rooturl: '_posts'
-  ignore: ['file_a.html', '_config.yml']
+  ignore: ['404.html', 'about.md', 'index.md', 'CNAME', 'Gemfile', 'Gemfile.lock', '_config.yml']
   siteurl: 'http://beta.democracia.global/'
   # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'img'
